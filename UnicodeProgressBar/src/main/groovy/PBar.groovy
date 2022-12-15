@@ -9,14 +9,38 @@ class PBar {
 //region: properties
 
     // static final String attributeForExtensions =  new ConfigProperties().getProperty('groovyConsole_attributeForExtensions','file_ext')
-    static final String attributeForExtensions =  'file_ext'
+    //static final String attributeForExtensions =  'file_ext'
 //end:
 
-//region: groovy Node
+//region: help methods
+
+    def public static getNumber(x){
+        (x instanceof String)? (x = x.trim()).isNumber()? ( x.isInteger()?x.toInteger():x.toDouble() ):x.endsWith('%')? getNumber(x.dropRight(1)):null:x
+    }    
+
+    def public static compareToSiblingsSum(nodo, clo){
+        def val = getNumber(clo(nodo))?:0
+        def tot = nodo.parent.children.sum{getNumber(clo(it))?:0}
+        [val, tot]
+    }
+    
+    def public static compareToSiblingsMax(nodo, clo){
+        def val = getNumber(clo(nodo))?:0
+        def tot = nodo.parent.children.collect{getNumber(clo(it))}.max()
+        [val, tot]
+    }
+
+    def public static compareToSiblingsMaxMin(nodo, clo){
+        def vMin = nodo.parent.children.collect{getNumber(clo(it))}.min()
+        def val = (getNumber(clo(nodo))?:0) - vMin
+        def tot = nodo.parent.children.collect{getNumber(clo(it))}.max() - vMin
+        [val, tot]
+    }
+
 
 //end:
 
-//region: 
+//region: progress Bar
 
     public static String  progressBar(String s, boolean withFinalText = true){
         def q = s.isNumber()?s.isInteger()?s.toInteger():s.toDouble():null
@@ -45,15 +69,15 @@ class PBar {
 
     public static String  progressBar(int q, int total, boolean withFinalText = true){
         def emptySpace = " " //Unicode Character “ ” (U+2002) En Space
-        def finalText =   withFinalText?"${def a = "${q}/${total}";def l = total.toString().size()*2+2; emptySpace*(Math.max(0,(l - a.size()))) + a}":GString.EMPTY
-        privProgressBar(q, total, finalText)
+        def finalText =  withFinalText?"${def a = "${q}/${total}";def l = total.toString().size()*2+2; emptySpace*(Math.max(0,(l - a.size()))) + a}":GString.EMPTY
+        progressBar(q, total, finalText)
     }
 
     public static String progressBar(BigDecimal q, BigDecimal total, boolean withFinalText = true){
         def emptySpace = " " //Unicode Character “ ” (U+2002) En Space
         def finalText =  withFinalText?"${def a = Math.round(q/total*100).toString(); emptySpace *(4 - a.size()) + a}%":GString.EMPTY
         //def finalText =  "${def a = "${q}/${total}"; emptySpace*(Math.max(0,(9 - a.size()))) + a}"
-        privProgressBar(q, total, finalText)
+        progressBar(q, total, finalText)
     }
 
     public static String  progressBar(int q, BigDecimal total, boolean withFinalText = true){
@@ -65,7 +89,7 @@ class PBar {
         progressBar(q.toInteger(), total, withFinalText)
     }
 
-    def private static  privProgressBar(q, total, GString finalText){
+    public static String progressBar(q, total, GString finalText){
         def totalBlocks = 10 // number of blocks that represents 100%
         def emptyBlock = "　" //Unicode Character “　” (U+3000) Ideographic Space
         //def emptyBlock = " " //Unicode Character “ ” (U+2001) Em Quad
@@ -96,19 +120,10 @@ class PBar {
         def leftText = av>=0? openingText + bar : bar  + openingText
         def texto = leftText + emptyBlock * Math.max(0,(totalBlocks - Math.max(0,(Math.floor(width) + (index>0?1:0)))))  + (av<=1?closingText:"") + finaltext
 
-        /*
-        println ""
-        println progress
-        println width
-        println Math.floor(width)
-        println Math.floor(width%1*8)
-        println totalBlocks - Math.floor(width )
-        println ""
-        */
-
         return texto.toString()
     }
 
 //end:
+
 
 }
