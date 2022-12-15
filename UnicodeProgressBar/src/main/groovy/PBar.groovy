@@ -66,7 +66,7 @@ class PBar {
     }
 
     def private static  privProgressBar(q, total, GString finalText){
-        def totalBlocks = 20 // number of blocks that represents 100%
+        def totalBlocks = 10 // number of blocks that represents 100%
         def emptyBlock = "　" //Unicode Character “　” (U+3000) Ideographic Space
         //def emptyBlock = " " //Unicode Character “ ” (U+2001) Em Quad
         //def emptyBlock = " " //Unicode Character “ ” (U+2007) Figure Space

@@ -1,6 +1,6 @@
 <map version="freeplane 1.9.13">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node LOCALIZED_TEXT="new_mindmap" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1671068762993" MODIFIED="1671068762993"><hook NAME="MapStyle" background="#f9f9f8">
+<node LOCALIZED_TEXT="new_mindmap" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" ID="ID_1090958577"><hook NAME="MapStyle" background="#f9f9f8">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" associatedTemplateLocation="template:/vis01%20light_nord_template%20vEdo.mm" save_folding="never_save_folding" fit_to_viewport="false"/>
 
 <map_styles>
@@ -8,8 +8,8 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 px" SHAPE_VERTICAL_MARGIN="2 px" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="2 px" CHILD_NODES_ALIGNMENT="BY_CENTER" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-12.75 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<font NAME="Dialog" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-11.25 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font NAME="MS UI Gothic" SIZE="12" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="horizontal" COLOR="#2e3440" WIDTH="1" DASH="SOLID"/>
 <richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
@@ -18,7 +18,7 @@
 <font NAME="MS UI Gothic" SIZE="9"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes" ID="ID_199621123">
-<font NAME="Lucida Sans" SIZE="8"/>
+<font NAME="MS UI Gothic" SIZE="10"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note" ID="ID_810825098" COLOR="#004600" BACKGROUND_COLOR="#e8e8c8" TEXT_ALIGN="LEFT">
 <icon BUILTIN="clock2"/>
@@ -76,9 +76,9 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="xx" POSITION="right" ID="ID_918469018" CREATED="1671068762993" MODIFIED="1671068762993">
-<node TEXT="=node.children.sum(0)" ID="ID_1028932911" CREATED="1671068762993" MODIFIED="1671068762993">
-<node TEXT="15" OBJECT="java.lang.Long|15" ID="ID_397882366" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="plain/" TYPE="DETAILS">
+<node TEXT="xx" POSITION="right" ID="ID_918469018">
+<node TEXT="=node.children.sum(0)" ID="ID_1028932911">
+<node TEXT="15" OBJECT="java.lang.Long|15" ID="ID_397882366"><richcontent CONTENT-TYPE="plain/" TYPE="DETAILS">
     <text>=
 import edofro.freeplane.unicodeprogressbar.PBar as pb
 
@@ -87,7 +87,7 @@ def t = node.parent.displayedText.toDouble()
 pb.progressBar(v,t)</text>
 </richcontent>
 </node>
-<node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_338732858" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_338732858"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -114,7 +114,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_904645510" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_904645510"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -141,7 +141,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="88" OBJECT="java.lang.Long|88" ID="ID_556324221" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="88" OBJECT="java.lang.Long|88" ID="ID_556324221"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -168,7 +168,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_48431517" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_48431517"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -195,7 +195,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_1118799216" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_1118799216"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -223,8 +223,8 @@ pb.progressBar(v,t)</text>
 </html></richcontent>
 </node>
 </node>
-<node TEXT="=node.children.sum(0)" ID="ID_1929377138" CREATED="1671068762993" MODIFIED="1671068762993">
-<node TEXT="15" OBJECT="java.lang.Long|15" ID="ID_337169843" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="plain/" TYPE="DETAILS">
+<node TEXT="=node.children.sum(0)" ID="ID_1929377138">
+<node TEXT="15" OBJECT="java.lang.Long|15" ID="ID_337169843"><richcontent CONTENT-TYPE="plain/" TYPE="DETAILS">
     <text>=
 import edofro.freeplane.unicodeprogressbar.PBar as pb
 
@@ -233,7 +233,7 @@ def t = node.parent.displayedText.toInteger()
 pb.progressBar(v,t)</text>
 </richcontent>
 </node>
-<node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_833105877" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="plain/" TYPE="DETAILS">
+<node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_833105877"><richcontent CONTENT-TYPE="plain/" TYPE="DETAILS">
     <text>=
 import edofro.freeplane.unicodeprogressbar.PBar as pb
 
@@ -242,7 +242,7 @@ def t = node.parent.displayedText.toInteger()
 pb.progressBar(v,t)</text>
 </richcontent>
 </node>
-<node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_200988705" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_200988705"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -269,7 +269,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="88" OBJECT="java.lang.Long|88" ID="ID_1356028920" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="88" OBJECT="java.lang.Long|88" ID="ID_1356028920"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -296,7 +296,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_85524197" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_85524197"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -323,7 +323,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_215323659" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_215323659"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -351,8 +351,8 @@ pb.progressBar(v,t)</text>
 </html></richcontent>
 </node>
 </node>
-<node TEXT="=node.children.sum(0)" ID="ID_1729813344" CREATED="1671068762993" MODIFIED="1671068762993">
-<node TEXT="15" OBJECT="java.lang.Long|15" ID="ID_616447235" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="=node.children.sum(0)" ID="ID_1729813344">
+<node TEXT="15" OBJECT="java.lang.Long|15" ID="ID_616447235"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -379,7 +379,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_973064595" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_973064595"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -406,7 +406,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_1111346128" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_1111346128"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -433,7 +433,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="88" OBJECT="java.lang.Long|88" ID="ID_690735596" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="88" OBJECT="java.lang.Long|88" ID="ID_690735596"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -460,7 +460,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_537314340" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_537314340"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -487,7 +487,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_1809135978" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_1809135978"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -515,8 +515,8 @@ pb.progressBar(v,t)</text>
 </html></richcontent>
 </node>
 </node>
-<node TEXT="=node.children.sum(0)" ID="ID_819162036" CREATED="1671068762993" MODIFIED="1671068762993">
-<node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_1578989705" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="=node.children.sum(0)" ID="ID_819162036">
+<node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_1578989705"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -543,7 +543,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_1155194277" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_1155194277"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -570,7 +570,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="88" OBJECT="java.lang.Long|88" ID="ID_1740300213" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="88" OBJECT="java.lang.Long|88" ID="ID_1740300213"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -597,7 +597,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_90267325" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_90267325"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -625,8 +625,8 @@ pb.progressBar(v,t)</text>
 </html></richcontent>
 </node>
 </node>
-<node TEXT="=node.children.sum(0)" ID="ID_1018531000" CREATED="1671068762993" MODIFIED="1671068762993">
-<node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_1471856216" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="=node.children.sum(0)" ID="ID_1018531000">
+<node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_1471856216"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -656,7 +656,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_1068974990" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_1068974990"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -686,7 +686,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="88" OBJECT="java.lang.Long|88" ID="ID_172807572" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="88" OBJECT="java.lang.Long|88" ID="ID_172807572"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -716,7 +716,7 @@ pb.progressBar(v,t)</text>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_1901301071" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_1901301071"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -748,7 +748,7 @@ pb.progressBar(v,t)</text>
 </node>
 </node>
 </node>
-<node TEXT="assigning details" POSITION="right" ID="ID_736993528" CREATED="1671068762993" MODIFIED="1671068762993"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="assigning details" POSITION="right" ID="ID_736993528"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -797,6 +797,82 @@ pb.progressBar(v,t)</text>
     </p>
   </body>
 </html></richcontent>
+</node>
+<node TEXT="I▉▉▉▉▏　　　　　I  42%" POSITION="left" ID="ID_765013818"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      I▉▉▉▉▏　　　　　I  42%
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="54.75 pt" VALUE_WIDTH="157.5 pt"/>
+<attribute NAME="file_ext" VALUE="groovy"/>
+<attribute NAME="progress" VALUE="I▉▉▉▉▏　　　　　I  42%"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import edofro.freeplane.unicodeprogressbar.PBar as pb
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (-33..123).each{j -&gt;
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;bar j
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;sleep(50)
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      bar 42
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      def bar(j){
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;def p = pb.progressBar(j)
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;c.statusInfo = p
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;node.text = p
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;node.details = p
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;node['progress'] = p
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </map>
