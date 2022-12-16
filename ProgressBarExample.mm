@@ -11,7 +11,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 px" SHAPE_VERTICAL_MARGIN="2 px" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="2 px" CHILD_NODES_ALIGNMENT="BY_CENTER" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-10.5 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;-9.75 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="MS UI Gothic" SIZE="12" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="horizontal" COLOR="#2e3440" WIDTH="1" DASH="SOLID"/>
 <richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
@@ -92,8 +92,7 @@
       &nbsp;&nbsp;MS UI Gothic
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Raw examples:&#xa;look into the formulas" POSITION="right" ID="ID_389281752">
 <node TEXT="=&#xa;import edofro.freeplane.unicodeprogressbar.PBar as pb&#xa;&#xa;pb.progressBar(&apos;35%&apos;)" ID="ID_871986220"/>
 <node TEXT="=&#xa;import edofro.freeplane.unicodeprogressbar.PBar as pb&#xa;&#xa;pb.progressBar(66)" ID="ID_460114092"/>
@@ -146,7 +145,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Dynamic bar" FOLDED="true" POSITION="right" ID="ID_1838498651">
+<node TEXT="Dynamic bar" POSITION="right" ID="ID_1838498651">
 <node TEXT="examples without using the help methods" ID="ID_918469018">
 <node TEXT="equivalent to &quot;compareToSiblingsSum&quot;" FOLDED="true" ID="ID_764141856"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -721,7 +720,7 @@ pb.progressBar(v,t)</text>
 </node>
 </node>
 </node>
-<node TEXT="equivalent to &quot;compareToSiblingsMaxMin&quot;" FOLDED="true" ID="ID_607676012"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="equivalent to &quot;compareToSiblingsMaxMin&quot;" ID="ID_607676012"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -867,8 +866,7 @@ pb.progressBar(v,t)</text>
       t is the sum of the siblings values
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="free" ID="ID_1498838477">
 <node TEXT="if the comparing value (&apos;t&apos; in the formula) is an Integer, then the text in the progress bar has the format &quot;v/t&quot;" FOLDED="true" ID="ID_1791452885">
 <node TEXT="=node.children.sum(0)" ID="ID_571422270">
@@ -1043,8 +1041,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t, true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_1836016149"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1068,8 +1065,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t, true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="55.34" OBJECT="java.lang.Double|55.34" ID="ID_732245268"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1093,8 +1089,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t, true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="88" OBJECT="java.lang.Long|88" ID="ID_617876616"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1118,8 +1113,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t, true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_1509707299"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1143,8 +1137,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t, true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_1950437930"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1168,8 +1161,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t, true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="vvv" ID="ID_1463295668"/>
 </node>
@@ -1332,8 +1324,7 @@ pb.progressBar(v,t)</text>
       forcing t to be a decimal number
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="=node.children.sum(0)" ID="ID_1352714159">
 <node TEXT="15" OBJECT="java.lang.Long|15" ID="ID_691745052"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1357,8 +1348,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t.toDouble(), true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_128340731"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1382,8 +1372,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t.toDouble(), true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_495144557"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1407,8 +1396,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t.toDouble(), true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="90" OBJECT="java.lang.Long|90" ID="ID_679512854"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1432,8 +1420,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t.toDouble(), true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_936652379"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1457,8 +1444,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t.toDouble(), true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_1101358223"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1482,8 +1468,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t.toDouble(), true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="vvv" ID="ID_1239732812"/>
 </node>
@@ -1498,8 +1483,7 @@ pb.progressBar(v,t)</text>
       forcing t to be an integer
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="=node.children.sum(0)" ID="ID_403295233">
 <node TEXT="15" OBJECT="java.lang.Long|15" ID="ID_1993990698"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1523,8 +1507,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t.toInteger(), true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_1823528281"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1548,8 +1531,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t.toInteger(), true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_1078302895"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1573,8 +1555,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t.toInteger(), true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="88.45" OBJECT="java.lang.Double|88.45" ID="ID_1646520215"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1598,8 +1579,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t.toInteger(), true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_568798134"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1623,8 +1603,7 @@ pb.progressBar(v,t)</text>
       pb.progressBar(v,t.toInteger(), true)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_1868407209"><richcontent CONTENT-TYPE="plain/" TYPE="DETAILS">
     <text>=
@@ -1648,8 +1627,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       t is the maximal of the siblings values
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="With no text in bar" FOLDED="true" ID="ID_1731506173">
 <node TEXT="15" OBJECT="java.lang.Long|15" ID="ID_849173301"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1673,8 +1651,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, false)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_1162989849"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1698,8 +1675,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, false)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_1393464907"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1723,8 +1699,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, false)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="88.45" OBJECT="java.lang.Double|88.45" ID="ID_1742147376"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1748,8 +1723,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, false)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_483275166"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1773,8 +1747,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, false)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_605387055"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1798,8 +1771,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, false)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="vvv" ID="ID_61388877"/>
 </node>
@@ -1832,8 +1804,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_1147033236"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1863,8 +1834,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_1705199151"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1894,8 +1864,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="88.45" OBJECT="java.lang.Double|88.45" ID="ID_20412571"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1925,8 +1894,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_153412927"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1956,8 +1924,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_1942774640"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -1987,8 +1954,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="vvv" ID="ID_1803565668"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -2018,8 +1984,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2033,8 +1998,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       bar extends between the minimal and maximal siblings values
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="With no text in bar" FOLDED="true" ID="ID_665514045">
 <node TEXT="15" OBJECT="java.lang.Long|15" ID="ID_936116962"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -2061,8 +2025,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, false)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_1829167717"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -2089,8 +2052,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, false)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_1286009774"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -2117,8 +2079,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, false)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="88.45" OBJECT="java.lang.Double|88.45" ID="ID_62224242"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -2145,8 +2106,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, false)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_822458082"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -2173,8 +2133,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, false)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_1448016602"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -2201,8 +2160,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, false)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="vvv" ID="ID_1244594525"/>
 </node>
@@ -2235,8 +2193,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="35" OBJECT="java.lang.Long|35" ID="ID_1499254437"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -2266,8 +2223,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="55" OBJECT="java.lang.Long|55" ID="ID_317866304"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -2297,8 +2253,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="88.45" OBJECT="java.lang.Double|88.45" ID="ID_1845237638"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -2328,8 +2283,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="37" OBJECT="java.lang.Long|37" ID="ID_1233107981"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -2359,8 +2313,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_1936050927"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -2390,11 +2343,86 @@ pb.progressBar(v,t.toInteger(), true)</text>
       pb.progressBar(v,t, gText)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="vvv" ID="ID_1918625357"/>
 </node>
+</node>
+</node>
+</node>
+<node TEXT="other examples" POSITION="right" ID="ID_1004032687" VGAP_QUANTITY="21.75 pt">
+<node TEXT="progress in child nodes" ID="ID_1604327993"><richcontent CONTENT-TYPE="plain/" TYPE="DETAILS">
+    <text>=
+import edofro.freeplane.unicodeprogressbar.PBar as pb
+
+def done = node.children.count{it.icons.contains(&apos;checked&apos;)}
+def pending = node.children.count{it.icons.contains(&apos;unchecked&apos;)}
+
+pb.progressBar(done, done + pending)</text>
+</richcontent>
+<node TEXT="Task 1" ID="ID_1541960016">
+<icon BUILTIN="checked"/>
+</node>
+<node TEXT="Task 2" ID="ID_342387623">
+<icon BUILTIN="checked"/>
+</node>
+<node TEXT="Task 3" ID="ID_560712541">
+<icon BUILTIN="checked"/>
+</node>
+<node TEXT="Task 4" ID="ID_1964570515">
+<icon BUILTIN="checked"/>
+</node>
+<node TEXT="Task 5" ID="ID_1387035013">
+<icon BUILTIN="unchecked"/>
+</node>
+<node TEXT="Task 6" ID="ID_1923843360">
+<icon BUILTIN="unchecked"/>
+</node>
+<node TEXT="Task 7" ID="ID_4769458">
+<icon BUILTIN="checked"/>
+</node>
+<node TEXT="Task 8" ID="ID_1047229109">
+<icon BUILTIN="checked"/>
+</node>
+<node TEXT="Task 9" ID="ID_742172680">
+<icon BUILTIN="checked"/>
+</node>
+</node>
+<node TEXT="progress in child nodes" ID="ID_1149249296"><richcontent CONTENT-TYPE="plain/" TYPE="DETAILS">
+    <text>=
+import edofro.freeplane.unicodeprogressbar.PBar as pb
+
+def done    = node.children.count{ it.icons.contains(&apos;checked&apos;  ) }
+def pending = node.children.count{ it.icons.contains(&apos;unchecked&apos;) }
+
+pb.progressBar(done,(done+pending).toDouble())</text>
+</richcontent>
+<node TEXT="Task 1" ID="ID_1878096629">
+<icon BUILTIN="checked"/>
+</node>
+<node TEXT="Task 2" ID="ID_560356550">
+<icon BUILTIN="checked"/>
+</node>
+<node TEXT="Task 3" ID="ID_537268455">
+<icon BUILTIN="checked"/>
+</node>
+<node TEXT="Task 4" ID="ID_1570308410">
+<icon BUILTIN="checked"/>
+</node>
+<node TEXT="Task 5" ID="ID_1199319369">
+<icon BUILTIN="unchecked"/>
+</node>
+<node TEXT="Task 6" ID="ID_1174248427">
+<icon BUILTIN="unchecked"/>
+</node>
+<node TEXT="Task 7" ID="ID_217553221">
+<icon BUILTIN="checked"/>
+</node>
+<node TEXT="Task 8" ID="ID_220504520">
+<icon BUILTIN="checked"/>
+</node>
+<node TEXT="Task 9" ID="ID_1507334297">
+<icon BUILTIN="checked"/>
 </node>
 </node>
 </node>
@@ -2490,8 +2518,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
@@ -2586,8 +2613,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
@@ -2598,8 +2624,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       .groovy
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="I▉▉▉▉▉▉▉▋　　I  77%" ID="ID_568546053">
 <attribute_layout NAME_WIDTH="54.75 pt" VALUE_WIDTH="134.25 pt"/>
 <attribute NAME="progress" VALUE="I▉▉▉▉▉▉▉▋　　I  77%"/>
@@ -2613,8 +2638,7 @@ pb.progressBar(v,t.toInteger(), true)</text>
       I▉▉▉▉▉▉▉▋　　I  77%
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
