@@ -178,8 +178,7 @@
       To translate the description you have to define a translation for the key 'addons.${name}.description'.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_622077507"><richcontent TYPE="NODE">
 
 <html>
@@ -208,8 +207,7 @@
       Change log of this add-on: append one node for each noteworthy version and put the details for each version into a child node.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="v0.0.1" ID="ID_1580601329">
 <node TEXT="Initial release" ID="ID_185557319"/>
 </node>
@@ -230,8 +228,7 @@
       The License text has to be entered as a child of the <i>'license'</i>&nbsp;node, either as plain text or as HTML.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="MIT License&#xa;Copyright (c) 2022 Eduardo Frohlich.&#xa;Permission is hereby granted, free of charge, to any person obtaining a copy of this software&#xa; and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction,&#xa; including without limitation the rights to use, copy, modify, merge, publish, distribute,&#xa; sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is&#xa;furnished to do so, subject to the following conditions:&#xa;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&#xa;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS&#xa;OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&#xa;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL&#xa;THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR&#xa;OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,&#xa;ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR&#xa;OTHER DEALINGS IN THE SOFTWARE." ID="ID_1185259036"/>
 </node>
 <node TEXT="preferences.xml" POSITION="left" ID="ID_1798633857"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -340,8 +337,7 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="default.properties" POSITION="left" ID="ID_245133030"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -361,8 +357,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="translations" POSITION="left" ID="ID_1497255128"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -394,8 +389,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="en" ID="ID_1034492401">
 <attribute_layout NAME_WIDTH="84 pt" VALUE_WIDTH="101.25 pt"/>
 <attribute NAME="addons.${name}" VALUE="UnicodeProgressBar"/>
@@ -411,8 +405,7 @@
       List of files and/or directories to remove on uninstall
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute_layout NAME_WIDTH="45 pt" VALUE_WIDTH="365.99999 pt"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/UnicodeProgressBar.jar"/>
@@ -532,8 +525,7 @@
       &nbsp;&nbsp;- In any case set execute_scripts_without_asking to true unless you want to annoy users.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="lib" POSITION="right" ID="ID_219712814"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -569,8 +561,7 @@
       &nbsp;- The files will be processed in the sequence as seen in the map.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="UnicodeProgressBar.jar" ID="ID_1588602468"/>
 </node>
 <node TEXT="zips" POSITION="right" ID="ID_1528435372"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -607,8 +598,7 @@
       &nbsp;- The files will be processed in the sequence as seen in the map.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="doc" ID="ID_1276402730"/>
 <node TEXT="icons" ID="ID_32589666"/>
 <node TEXT="templates" ID="ID_24219675"/>
@@ -643,8 +633,7 @@
       Images can be added automatically by releaseAddOn.groovy or must be uploaded into the map via the script <i>Tools-&gt;Scripts-&gt;Insert Binary</i>&nbsp;since they have to be (base64) encoded as simple strings.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="actions" POSITION="right" ID="ID_974165631"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -654,8 +643,7 @@
   <body>
     Direct links to menu commands
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Build add-on" ID="ID_575070693" LINK="menuitem:_addons.devtools.checkAddOn_on_single_node"/>
 <node TEXT="Package add-on for publication" ID="ID_1716617070" LINK="menuitem:_addons.devtools.releaseAddOn_on_single_node"/>
 <node TEXT="Export Translations" ID="ID_969536099" LINK="menuitem:_addons.devtools.exportTranslations_on_single_node"/>
